@@ -121,7 +121,7 @@ function syncPets() {
 
                 // Enviar cada tarea al backend
                 const promises = pets.map(pet => {
-                    return fetch('http://localhost:4000/post_cocina', {
+                    return fetch('https://tortas-server.onrender.com/post_cocina', {
                         method: 'POST',
                         headers : {
                             'Content-Type': 'application/json'

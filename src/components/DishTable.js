@@ -156,7 +156,7 @@ const DishTable = () => {
           };
   
           // Enviar la suscripción a la API
-          const response = await fetch('http://localhost:4000/suscription', {
+          const response = await fetch('https://tortas-server.onrender.com/suscription', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
