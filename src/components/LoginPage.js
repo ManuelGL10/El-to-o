@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -102,9 +102,9 @@ const LoginPage = () => {
         </div>
         <div className="mt-4 text-center text-sm">
           ¿No tienes una cuenta?{" "}
-          <a href="/Register" className="text-purple-600 font-medium hover:underline">
-            Regístrate aquí
-          </a>
+        <Link to="/Register" className="text-purple-600 font-medium hover:underline">
+          Regístrate aquí
+        </Link>
         </div>
       </div>
     </section>
