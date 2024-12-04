@@ -146,7 +146,7 @@ const DishTable = () => {
         if (permission === 'granted') {
           const newSubscription = await registration.pushManager.subscribe({
             userVisibleOnly: true,
-            applicationServerKey: "BMFs1abMQdigAfOcZDc36bRKgAeZfg_VYc3_h-Kho0n0ouZBhi_Kr4-8j_mWd5WyVZ_zyrZtxT2p6GI_RMHhYfA"
+            applicationServerKey: "BD19LwL04w1jOyzMEBGdqeN7Wxnbi0j8M9bOASLvMi19QeqDFhCNZrWr2uQ_zRiEi48d7eXzqPqpxW1dvIsibB8"
           });
   
           // Formatear los datos de suscripción junto con userId

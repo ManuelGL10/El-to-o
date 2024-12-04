@@ -3,37 +3,37 @@
   "name": "PWA",
   "icons": [
     {
-      "src": "/icon/icon_mapache32.jpg",
+      "src": "/icon/mevan32.jpg",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/icon/icon_mapache64.jpg",
+      "src": "/icon/mevan64.jpg",
       "sizes": "64x64",
       "type": "image/jpg"
     },
     {
-      "src": "/icon/icon_mapache128.jpg",
+      "src": "/icon/mevan128.jpg",
       "sizes": "128x128",
       "type": "image/jpg"
     },
     {
-      "src": "/icon/icon_mapache192.jpg",
+      "src": "/icon/mevan192.jpg",
       "sizes": "192x192",
       "type": "image/jpg"
     },
     {
-      "src": "/icon/icon_mapache256.jpg",
+      "src": "/icon/mevan256.jpg",
       "sizes": "256x256",
       "type": "image/jpg"
     },
     {
-      "src": "/icon/icon_mapache512.jpg",
+      "src": "/icon/mevan512.jpg",
       "sizes": "512x512",
       "type": "image/jpg"
     },
     {
-      "src": "/icon/icon_mapache1024.jpg",
+      "src": "/icon/mevan1024.jpg",
       "sizes": "1024x1024",
       "type": "image/jpg"
     }
