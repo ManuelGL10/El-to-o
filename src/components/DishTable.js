@@ -13,7 +13,7 @@ const DishTable = () => {
   useEffect(() => {
     const userId = localStorage.getItem("userId");
     axios
-      .get("http://localhost:4000/get_passwords", {
+      .get("https://tortas-server.onrender.com/get_passwords", {
         headers: { userId },
       })
       .then((response) => setDishes(response.data))
@@ -47,7 +47,7 @@ const DishTable = () => {
     };
   
     try {
-      const response = await fetch('http://localhost:4000/post_cocina', {
+      const response = await fetch('https://tortas-server.onrender.com/post_cocina', {
         method: 'POST', 
         headers: {
           'Content-Type': 'application/json'
@@ -122,7 +122,7 @@ const DishTable = () => {
 
   const deleteDish = (id) => {
     axios
-      .delete(`https://mapache-server-bio4.onrender.com/delete/${id}`)
+      .delete(`https://tortas-server.onrender.com/delete/${id}`)
       .then(() => setDishes(dishes.filter((dish) => dish._id !== id)))
       .catch((error) => console.error("Error al eliminar el platillo:", error));
   };
